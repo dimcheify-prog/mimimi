@@ -1,0 +1,22 @@
+.root {
+  position: sticky;
+  top: 0;
+  height: 57px;
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  background: var(--background-color);
+  border-bottom: 1px solid var(--light_background-color);
+}
+
+.company_logo_wrapper {
+  user-select: none;
+}
+
+.right_side {
+  display: flex;
+  justify-content: space-between;
+  width: 7%;
+}

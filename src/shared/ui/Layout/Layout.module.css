@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 0 28px;
+  border-radius: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+}
+
+.footer {}

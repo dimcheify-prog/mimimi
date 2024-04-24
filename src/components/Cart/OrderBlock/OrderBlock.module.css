@@ -1,0 +1,27 @@
+.root {
+  background: var(--white-color);
+  border-radius: 32px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+  max-width: 30%;
+  align-self: flex-start;
+}
+
+.divider {
+  border: 1px solid var(--light_background-color);
+  border-radius: 5px;
+}
+
+.cart_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.cart_info {
+  display: flex;
+  justify-content: space-between;
+}

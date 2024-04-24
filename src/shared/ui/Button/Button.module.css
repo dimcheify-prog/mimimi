@@ -1,0 +1,75 @@
+.root {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 20px;
+  height: 100%;
+  line-height: 46px;
+  border: 0;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s all;
+
+  &_size_large {
+    min-width: 240px;
+    height: 46px;
+  }
+
+  &_size_small {
+    min-width: 100px;
+    height: 28px;
+    padding: 0;
+    line-height: 28px;
+  }
+
+  &_size_medium {
+    max-width: 200px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  &_size_large {
+    @media (--s-viewport) {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+
+  &_variant_primary {
+    background: var(--button-background);
+    color: var(--white-color);
+  }
+
+  &_variant_primary:hover {
+    background: rgba(64, 45, 207, 0.715);
+  }
+
+  &_variant_secondary {
+    background: #f5f7fa;
+  }
+
+  &_variant_success {
+    background: var(--success-background);
+    color: var(--white-color);
+  }
+
+  &_variant_success:hover {
+    background: #2fc05fbc;
+  }
+
+  &_active {
+    background: red;
+  }
+
+  &_active:hover {
+    background: rgba(222, 35, 35, 0.644);
+  }
+
+
+
+  /* написать стили для secondary */
+}

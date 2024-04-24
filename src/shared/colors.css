@@ -1,0 +1,13 @@
+:root {
+  --text-color: #070707;
+  --link-color: #005bff;
+  --button-background: rgba(0, 91, 255, 1);
+  --light_background-color: rgba(0, 150, 255, 0.078);
+  --background-color: #eff3f6;
+  --white-color: #fff;
+  --sticker-background: #f91155;
+  --green-cost-color: #10c44c;
+  --light-gray: #f5f7fa;
+  --gray-color: rgba(0,0,0,.5);
+  --success-background: #10c44c;
+}

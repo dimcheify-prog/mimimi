@@ -1,0 +1,17 @@
+.root {
+  position: relative;
+}
+
+.cart_sticker {
+  width: 23px;
+  height: 16px;
+  background: var(--sticker-background);
+  position: absolute;
+  top: -7px;
+  right: -13px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 8px;
+  border-radius: 8px;
+}

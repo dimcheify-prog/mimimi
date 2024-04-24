@@ -1,0 +1,1 @@
+export const USDFormat = new Intl.NumberFormat('us-US', {style: 'currency', currency: 'USD'});
